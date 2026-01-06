@@ -1,0 +1,61 @@
+:root {
+  font-family: "Space Grotesk", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1b1b1b;
+  font-family: sans-serif;
+}
+
+#planet-name {
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+  z-index: 9;
+
+  padding: 0.8em;
+  border-radius: 15px;
+  /* background-color: lightgray; */
+}
+
+#planet-name h1 {
+  
+}
+
+#settings {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 9;
+
+  padding: 0.8em;
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+#settings input#lat {
+  width: 5.5em;
+}
+
+.button-drawing-mode {
+  background-color: green;
+  color: white;
+}
+
+.button-not-drawing-mode {
+  background-color: grey;
+  color: black;
+}
